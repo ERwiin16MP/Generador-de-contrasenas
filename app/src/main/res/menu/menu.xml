@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Compartir"
+        android:title="@string/Compartir"/>
+    <item
+        android:id="@+id/Apoyar"
+        android:title="@string/Apoyar"/>
+    <item
+        android:id="@+id/Mas"
+        android:title="@string/Mas_aplicaciones"/>
+    <item
+        android:id="@+id/Acerca_de"
+        android:title="@string/Acerca_de"/>
+</menu>

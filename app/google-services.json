@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538128308564",
+    "project_id": "generador-de-passwords",
+    "storage_bucket": "generador-de-passwords.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538128308564:android:e8cf154b53145fbf2890c1",
+        "android_client_info": {
+          "package_name": "com.erwin16mp.generadordecontraseas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538128308564-3kdm88vlm9a36ev9nmec35dhtavvfa03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXJ9ZnfYrIDdXBHgPWGtiwowtxBW3GbL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538128308564-3kdm88vlm9a36ev9nmec35dhtavvfa03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

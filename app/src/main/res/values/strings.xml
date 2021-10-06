@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Generador de contraseñas</string>
+    <string name="numero_de_caracteres">Número de caracteres:</string>
+    <string name="generar">Generar contraseña</string>
+    <string name="numeros">Números</string>
+    <string name="letras_mayusculas">Letras mayúsculas</string>
+    <string name="letras_minusculas">Letras minúsculas</string>
+    <string name="caracteres_especiales">Caracteres especiales</string>
+    <string name="contraseña_generada">Contraseña generada:</string>
+    <string name="copiar">Copiar al portapapeles</string>
+    <string name="Compartir">Compartir</string>
+    <string name="Acerca_de">Acerca de</string>
+    <string name="Referencias">Referencias</string>
+    <string name="Apoyar">Apoyar al desarrollador</string>
+    <string name="Mas_aplicaciones">Más aplicaciones</string>
+    <string name="Reporte">Reporte de fallos y solicitud de nuevas funciones:</string>
+    <string name="Correo">erwinmartinezperez@gmail.com</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="Puedes">Puedes comprarme</string>
+    <string name="Cafe">Cafe</string>
+    <string name="Cafe_">Me mantiene despierto durante mis sesiones de codificación de toda la noche</string>
+    <string name="Cafe__">$9.99</string>
+    <string name="Pizza">Pizza</string>
+    <string name="Pizza_">¡Para gente muy generosa!</string>
+    <string name="Pizza__">$99.99</string>
+    <string name="Falta_texto">Falta el número</string>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#202732"
+    tools:context=".Index" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/numero_de_caracteres"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/Boton_menos"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/boton_redondo_sin_fondo"
+            android:onClick="menos"
+            app:srcCompat="@drawable/menos"
+            tools:ignore="VectorDrawableCompat" />
+
+        <EditText
+            android:id="@+id/Numero"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Primary"
+            android:ems="10"
+            android:maxLength="2"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="20dp"
+            android:inputType="number"
+            android:text="15"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/Boton_mas"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/boton_redondo_sin_fondo"
+            android:onClick="mas"
+            app:srcCompat="@drawable/mas"
+            tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/checkBox_numeros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="20dp"
+            android:text="@string/numeros"
+            android:textColor="@color/white"
+            android:buttonTint="@color/Primary"/>
+        <CheckBox
+            android:id="@+id/checkBox_letras_mayusculas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/letras_mayusculas"
+            android:textColor="@color/white"
+            android:buttonTint="@color/Primary"/>
+        <CheckBox
+            android:id="@+id/checkBox_letras_minusculas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/letras_minusculas"
+            android:textColor="@color/white"
+            android:buttonTint="@color/Primary"/>
+        <CheckBox
+            android:id="@+id/checkBox_caracteres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/caracteres_especiales"
+            android:textColor="@color/white"
+            android:buttonTint="@color/Primary"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginVertical="15dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_Generar"
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo"
+            android:onClick="generar"
+            android:text="@string/generar"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/contraseña_generada"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Contraseña_Generada"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginVertical="15dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/Boton_Copiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo_sin_fondo"
+            android:onClick="copiar"
+            android:paddingHorizontal="10dp"
+            android:text="@string/copiar"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2386705468697450/5947357879">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+</LinearLayout>
